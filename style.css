@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 40px;
+}
+.half_width{
+    width: 50%;
+}
+.color_orange{
+    color:orange;
+}
+.color_ash{
+    color: #707070;
+}
+.color_white{
+    color:white;
+}
+.flexible{
+    display: flex;
+}
+.m_top{
+    margin-top: 10px;
+}
+.top{
+    margin-top: 100px;
+}
+.m_left{
+    margin-left: 50px;
+}
+.center{
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+}
+.border img{
+    border-radius: 20px;
+}
+.content{
+    padding: 100px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+/* all basic css setup */
+/* header part below */
+header{
+    background: #E34846;
+    padding: 30px; 
+}
+.head{
+    width: 500px;
+    margin: 0 auto;
+}
+.head h1{
+    margin-right: 30px;
+}
+.head h1 a{
+    text-decoration: none;
+    color:white;
+    font-size: 30px;
+}
+/* jump to bottom part*/
+.jump_to_bottom img{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 0;
+}
+.jump_to_bottom img:hover{
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 5px;
+}
+/* top section */
+.btn{
+    background-color:#ff4e00;
+    background-image:linear-gradient( to bottom right, #ff4e00 5%, #ec9f05 74%);
+    ;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+}
+.image img{
+    width: 90%;
+    padding: 10px;
+    margin-top: 50px;
+}
+/* about me part */
+#about{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+}
+.image2 img{
+    width: 80%;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+/* reciepes section */
+#reciepes{
+    margin-top: 50px;
+}
+.reciepe_item img{
+    height: 200px;
+    width: 300px;
+}
+.item_center{
+    margin: 0 auto;
+    width: 1200px;
+    margin-left: 120px;
+    margin-top: 40px;
+    
+}
+.reciepe_item{
+    width: 25%;
+    margin-left: 80px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px gray;
+    padding: 10px;
+}
+.reciepe_item:first-child{
+    margin-left: 0;
+}
+/* more information section */
+.info{
+    width:1100px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px rgb(209, 207, 207);
+}
+.youtube,.insta,.dribble{
+    margin-top: 40px;
+}
+/* contact me section */
+#contact{
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+}
+form input,textarea{
+    border:none;
+    border-bottom: 2px solid gray;
+    height: 50px;
+    width: 400px;
+    border-radius: 5px;
+    background: #FDEAEC;
+}
+/* footer section */
+.footer{
+    background: #0A0D16;
+    text-align: center;
+    padding: 10px;   
+}
+.footer_content{
+    margin-top: 45px;
+}
